@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="img/logo-oscuro-1 copia.svg">
+
+<!--    <link rel="stylesheet" href="css/reset.css">   -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo-oscuro-1 copia.svg" alt="logo de alura" class="logo">
+        
+    </header>
+
+    <main>
+        <section class="container">
+
+            <textarea class="text-area" cols="30" rows="4" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="content-mensaje">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <p class="copyright">&copyCopyright <a href="https://www.erwebp.com.ar" target="_blank" rel="noopener">Emmanuel Ramello</a> 2022</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+</body>
+</html>
