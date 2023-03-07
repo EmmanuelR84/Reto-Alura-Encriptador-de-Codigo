@@ -100,7 +100,6 @@ main {
     width: 336px;
 }
 
-
 .copyright {
     color: var(--grey-dark-color);
     font-size: var(--sm);
@@ -124,13 +123,18 @@ main {
     }
 
     .container {
-        width: 95%;
+        width: 100%;
         height: auto;
     }
 
     .text-area {
         width: 98%;
         padding: auto;
+    }
+
+    .botones {
+        height: 1.7rem;
+        margin-top: 0;
     }
 
     .btn-encriptar {
@@ -156,18 +160,23 @@ main {
         padding: auto;
         position: relative;
         object-fit: contain;
+        width: 90vw;
     }
 
     .btn-copiar {
-        height: auto;
+        height: 2rem;
         margin-left: auto;
         margin-top: auto;
         position: relative;
-        width: 80%;
+        width: 100%;
         font-size: var(--lg);
     }
+}
 
-    footer {
-        margin-bottom: 0;
+
+@media screen and (min-width: 601px) and (max-width: 996px) {
+    main {
+        flex-direction: column;
+        margin-left: 1rem;
     }
 }
