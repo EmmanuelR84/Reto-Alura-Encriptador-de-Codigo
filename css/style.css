@@ -179,4 +179,21 @@ main {
         flex-direction: column;
         margin-left: 1rem;
     }
+    
+    .content-mensaje {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 15rem;
+    }
+
+    .mensaje {
+        position: relative;
+        margin-left: 0;
+    }
+
+    .btn-copiar {
+        top: 1rem;
+        position: relative;
+    }
 }
