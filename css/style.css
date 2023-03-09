@@ -193,7 +193,7 @@ main {
     }
 
     .btn-copiar {
-        top: 1rem;
+        margin-top: 1rem;
         position: relative;
     }
 }
